@@ -1,0 +1,10 @@
+.MobileOnly{
+  text-align: center;
+  margin-top: -25px;
+}
+
+@media only screen and (min-width: 850px){
+  .MobileOnly{
+    display: none;
+  }
+}
